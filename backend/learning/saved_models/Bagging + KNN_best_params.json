@@ -1,0 +1,6 @@
+{
+    "model__n_estimators": 30,
+    "model__estimator__weights": "distance",
+    "model__estimator__n_neighbors": 8,
+    "model__estimator__metric": "euclidean"
+}

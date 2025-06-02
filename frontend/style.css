@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Alice Blue */
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #1e90ff; /* Dodger Blue */
+}
+
+input[type="file"] {
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid rgba(173, 216, 230, 0.73);
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(30, 144, 255, 0.68);
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f8ff;
+}
+
+tr:hover {
+    background-color: #e1f0ff; /* Light Blue */
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #1e90ff; /* Dodger Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #00bfff; /* Deep Sky Blue */
+}
+
+.weather-icon {
+    vertical-align: middle;
+}
+
+.file-input-container {
+    margin: 20px 0;
+}
+
+.file-input-label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #1e90ff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.file-input-label:hover {
+    background-color: #00bfff;
+}
+
+.file-input-container input[type="file"] {
+    display: none;
+}

@@ -1,0 +1,5 @@
+{
+    "model__learning_rate": 0.1,
+    "model__iterations": 350,
+    "model__depth": 4
+}

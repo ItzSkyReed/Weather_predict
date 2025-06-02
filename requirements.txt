@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+uvicorn[standard]
+joblib
+pandas
+numpy~=2.2.3
+psutil
+scikit-learn
+joblib
+pydantic~=2.11.4
+openmeteo_requests~=1.4.0
+python-multipart
+catboost
+orjson
+starlette
+xgboost
